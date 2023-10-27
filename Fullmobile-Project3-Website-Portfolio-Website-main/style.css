@@ -1,0 +1,1894 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(4,6,21);
+}
+section{
+    overflow-x: hidden;
+}
+.bg-shadow{
+    margin: auto;
+    position: fixed;
+    background-color: transparent;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+    margin-top: -30rem;
+    border-radius: 100%;
+    box-shadow: 0 -20rem 1000rem 55rem hsla(214, 100%, 31%, 0.5) ;
+}
+.cursor-shadow {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    z-index: 999;
+    box-shadow: 0 0rem 5rem 5rem hsla(212, 100%, 27%, 0.4);
+    transition: .05s;
+}  
+.background div{
+    position: fixed;
+    overflow: hidden;
+    border-radius: 100%;
+    background-color: rgb(170, 170, 170);
+    z-index: -1;
+}
+.background div:nth-child(1){
+    top: 9%;
+    left: 10%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft2 8s linear infinite;
+}
+.background div:nth-child(2){
+    top: 9.5%;
+    left: 90%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(3){
+    top: 9.2%;
+    left: 70%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 4s linear infinite;
+}
+.background div:nth-child(4){
+    top: 9%;
+    left: 40%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(5){
+    top: 12%;
+    left: 15%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 3s linear infinite;
+}
+.background div:nth-child(6){
+    top: 18%;
+    left: 12%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 10s linear infinite;
+}
+.background div:nth-child(7){
+    top: 17%;
+    left: 8%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 5s linear infinite;
+}
+.background div:nth-child(8){
+    top: 20%;
+    left: 60%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 10s linear infinite;
+}
+.background div:nth-child(9){
+    top: 16%;
+    left: 35%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(10){
+    top: 17%;
+    left: 33%;
+    width: 3px;
+    height: 3px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(11){
+    top: 14%;
+    left: 25%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 4s linear infinite;
+}
+.background div:nth-child(12){
+    top: 18%;
+    left: 85%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(13){
+    top: 20%;
+    left: 87%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft3 5s linear infinite;
+}
+.background div:nth-child(14){
+    top: 10%;
+    left: 99%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 2s linear infinite;
+}
+.background div:nth-child(15){
+    top: 64%;
+    left: 12%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 7s linear infinite;
+}
+.background div:nth-child(16){
+    top: 47%;
+    left: 76%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 6s linear infinite;
+}
+.background div:nth-child(17){
+    top: 68%;
+    left: 38%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(18){
+    top: 68%;
+    left: 78%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 10s linear infinite;
+}
+.background div:nth-child(19){
+    top: 47%;
+    left: 39%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 5s linear infinite;
+}
+.background div:nth-child(20){
+    top: 29%;
+    left: 70%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft3 10s linear infinite;
+}
+.background div:nth-child(21){
+    top: 29%;
+    left: 80%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(22){
+    top: 67%;
+    left: 35%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 5s linear infinite;
+}
+.background div:nth-child(23){
+    top: 76%;
+    left: 18%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(24){
+    top: 49%;
+    left: 23%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft3 7s linear infinite;
+}
+.background div:nth-child(25){
+    top: 39%;
+    left: 78%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(26){
+    top: 57%;
+    left: 30%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(27){
+    top: 69%;
+    left: 49%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 8s linear infinite;
+}
+.background div:nth-child(28){
+    top: 75%;
+    left: 21%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(29){
+    top: 82%;
+    left: 87%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 10s linear infinite;
+}
+.background div:nth-child(30){
+    top: 68%;
+    left: 44%;
+    width: 1px;
+    height: 1px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(31){
+    top: 78%;
+    left: 57%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 6s linear infinite;
+}
+.background div:nth-child(32){
+    top: 29%;
+    left: 19%;
+    width: 1px;
+    height: 1px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(33){
+    top: 92%;
+    left: 45%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(34){
+    top: 70%;
+    left: 48%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(35){
+    top: 28%;
+    left: 87%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 8s linear infinite;
+}
+.background div:nth-child(36){
+    top: 39%;
+    left: 27%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(37){
+    top: 45%;
+    left: 19%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft2 10s linear infinite;
+}
+.background div:nth-child(38){
+    top: 42%;
+    left: 24%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(39){
+    top: 53%;
+    left: 24%;
+    width: 1px;
+    height: 1px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(40){
+    top: 35%;
+    left: 5%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 6s linear infinite;
+}
+.background div:nth-child(41){
+    top: 9%;
+    left: 3%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 10s linear infinite;
+}
+.background div:nth-child(42){
+    top: 9.5%;
+    left: 2%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft1 8s linear infinite;
+}
+.background div:nth-child(43){
+    top: 23%;
+    left: 7%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(44){
+    top: 46%;
+    left: 3%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(45){
+    top: 45%;
+    left: 15%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 6s linear infinite;
+}
+.background div:nth-child(46){
+    top: 78%;
+    left: 12%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(47){
+    top: 89%;
+    left: 5%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 8s linear infinite;
+}
+.background div:nth-child(48){
+    top: 39%;
+    left: 60%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft1 5s linear infinite;
+}
+.background div:nth-child(49){
+    top: 45%;
+    left: 25%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 10s linear infinite;
+}
+.background div:nth-child(50){
+    top: 79%;
+    left: 78%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(51){
+    top: 12%;
+    left: 67%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 7s linear infinite;
+}
+.background div:nth-child(52){
+    top: 15%;
+    left: 52%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 10s linear infinite;
+}
+.background div:nth-child(53){
+    top: 10%;
+    left: 54%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(54){
+    top: 40%;
+    left: 99%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 7s linear infinite;
+}
+.background div:nth-child(55){
+    top: 37%;
+    left: 93%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(56){
+    top: 75%;
+    left: 96%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 6s linear infinite;
+}
+.background div:nth-child(57){
+    top: 27%;
+    left: 98%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(58){
+    top: 26%;
+    left: 78%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 10s linear infinite;
+}
+.background div:nth-child(59){
+    top: 60%;
+    left: 89%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 8s linear infinite;
+}
+.background div:nth-child(60){
+    top: 50%;
+    left: 94%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(61){
+    top: 28%;
+    left: 80%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft2 10s linear infinite;
+}
+.background div:nth-child(62){
+    top: 90%;
+    left: 95.5%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 5s linear infinite;
+}
+.background div:nth-child(63){
+    top: 80%;
+    left: 37%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(64){
+    top: 39%;
+    left: 50%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 10s linear infinite;
+}
+.background div:nth-child(65){
+    top: 26%;
+    left: 28%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 5s linear infinite;
+}
+.background div:nth-child(66){
+    top: 39%;
+    left: 29%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(67){
+    top: 53%;
+    left: 79%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 3s linear infinite;
+}
+.background div:nth-child(68){
+    top: 53%;
+    left: 29%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft2 10s linear infinite;
+}
+.background div:nth-child(69){
+    top: 25%;
+    left: 94%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(70){
+    top: 26%;
+    left: 77%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(71){
+    top: 85%;
+    left: 32%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft2 5s linear infinite;
+}
+.background div:nth-child(72){
+    top: 47%;
+    left: 24%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(73){
+    top: 67%;
+    left: 45%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 10s linear infinite;
+}
+.background div:nth-child(74){
+    top: 74%;
+    left: 87%;
+    width: 3px;
+    height: 3px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(75){
+    top: 59%;
+    left: 12%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 10s linear infinite;
+}
+.background div:nth-child(76){
+    top: 85%;
+    left: 78%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 8s linear infinite;
+}
+.background div:nth-child(77){
+    top: 45%;
+    left: 89%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft3 10s linear infinite;
+}
+.background div:nth-child(78){
+    top: 42%;
+    left: 74%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(79){
+    top: 53%;
+    left: 94%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(80){
+    top: 75%;
+    left: 5%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(81){
+    top: 28%;
+    left: 100%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 5s linear infinite;
+}
+.background div:nth-child(82){
+    top: 90%;
+    left: 105%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft2 10s linear infinite;
+}
+.background div:nth-child(83){
+    top: 80%;
+    left: 101%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(84){
+    top: 39%;
+    left: 105%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(85){
+    top: 26%;
+    left: 104%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(86){
+    top: 39%;
+    left: 106%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 3s linear infinite;
+}
+.background div:nth-child(87){
+    top: 53%;
+    left: 107%;
+    width: 3px;
+    height: 3px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(88){
+    top: 13%;
+    left: 100%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 10s linear infinite;
+}
+.background div:nth-child(89){
+    top: 10%;
+    left: 104%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 10s linear infinite;
+}
+.background div:nth-child(90){
+    top: 46%;
+    left: 100%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 10s linear infinite;
+}
+.background div:nth-child(91){
+    top: 85%;
+    left: 101%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 5s linear infinite;
+}
+.background div:nth-child(92){
+    top: 98%;
+    left: 103%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(93){
+    top: 67%;
+    left: 102%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft3 10s linear infinite;
+}
+.background div:nth-child(94){
+    top: 74%;
+    left: 101%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(95){
+    top: 59%;
+    left: 100%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 5s linear infinite;
+}
+.background div:nth-child(96){
+    top: 85%;
+    left: 108%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft2 10s linear infinite;
+}
+.background div:nth-child(97){
+    top: 45%;
+    left: 110%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 10s linear infinite;
+}
+.background div:nth-child(98){
+    top: 42%;
+    left: 107%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 5s linear infinite;
+}
+.background div:nth-child(99){
+    top: 53%;
+    left: 104%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 10s linear infinite;
+}
+.background div:nth-child(100){
+    top: 75%;
+    left: 92%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft1 9s linear infinite;
+}.background div:nth-child(101){
+    top: 9%;
+    left: 10%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft2 6s linear infinite;
+}
+.background div:nth-child(102){
+    top: 9.5%;
+    left: 90%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 5s linear infinite;
+}
+.background div:nth-child(103){
+    top: 9.2%;
+    left: 70%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 9s linear infinite;
+}
+.background div:nth-child(104){
+    top: 9%;
+    left: 40%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 6s linear infinite;
+}
+.background div:nth-child(105){
+    top: 12%;
+    left: 15%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 5s linear infinite;
+}
+.background div:nth-child(106){
+    top: 18%;
+    left: 12%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 5s linear infinite;
+}
+.background div:nth-child(107){
+    top: 17%;
+    left: 8%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 7s linear infinite;
+}
+.background div:nth-child(108){
+    top: 20%;
+    left: 60%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 4s linear infinite;
+}
+.background div:nth-child(109){
+    top: 16%;
+    left: 35%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 5s linear infinite;
+}
+.background div:nth-child(110){
+    top: 17%;
+    left: 33%;
+    width: 3px;
+    height: 3px;
+    animation: onanddow 5s linear infinite;
+}
+.background div:nth-child(111){
+    top: 14%;
+    left: 25%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 3s linear infinite;
+}
+.background div:nth-child(112){
+    top: 18%;
+    left: 85%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 7s linear infinite;
+}
+.background div:nth-child(113){
+    top: 20%;
+    left: 87%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft3 3s linear infinite;
+}
+.background div:nth-child(114){
+    top: 10%;
+    left: 99%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 5s linear infinite;
+}
+.background div:nth-child(115){
+    top: 64%;
+    left: 12%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 6s linear infinite;
+}
+.background div:nth-child(116){
+    top: 47%;
+    left: 76%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 9s linear infinite;
+}
+.background div:nth-child(117){
+    top: 38%;
+    left: 38%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 6s linear infinite;
+}
+.background div:nth-child(118){
+    top: 68%;
+    left: 78%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 3s linear infinite;
+}
+.background div:nth-child(119){
+    top: 47%;
+    left: 39%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 6s linear infinite;
+}
+.background div:nth-child(120){
+    top: 29%;
+    left: 70%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft3 6s linear infinite;
+}
+.background div:nth-child(121){
+    top: 29%;
+    left: 80%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 8s linear infinite;
+}
+.background div:nth-child(122){
+    top: 67%;
+    left: 35%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 8s linear infinite;
+}
+.background div:nth-child(123){
+    top: 37%;
+    left: 18%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 7s linear infinite;
+}
+.background div:nth-child(124){
+    top: 49%;
+    left: 23%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft3 3s linear infinite;
+}
+.background div:nth-child(125){
+    top: 67%;
+    left: 23%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft1 5s linear infinite;
+}
+.background div:nth-child(126){
+    top: 48%;
+    left: 39%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 8s linear infinite;
+}
+.background div:nth-child(127){
+    top: 69%;
+    left: 49%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 4s linear infinite;
+}
+.background div:nth-child(128){
+    top: 75%;
+    left: 21%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 6s linear infinite;
+}
+.background div:nth-child(129){
+    top: 82%;
+    left: 87%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 5s linear infinite;
+}
+.background div:nth-child(130){
+    top: 68%;
+    left: 44%;
+    width: 1px;
+    height: 1px;
+    animation: onanddow 33s linear infinite;
+}
+.background div:nth-child(131){
+    top: 78%;
+    left: 57%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 3s linear infinite;
+}
+.background div:nth-child(132){
+    top: 29%;
+    left: 19%;
+    width: 1px;
+    height: 1px;
+    animation: onanddow 8s linear infinite;
+}
+.background div:nth-child(133){
+    top: 92%;
+    left: 45%;
+    width: 1px;
+    height: 1px;
+    animation: moveleft1 6s linear infinite;
+}
+.background div:nth-child(134){
+    top: 98%;
+    left: 48%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 3s linear infinite;
+}
+.background div:nth-child(135){
+    top: 28%;
+    left: 87%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 3s linear infinite;
+}
+.background div:nth-child(136){
+    top: 39%;
+    left: 27%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 4s linear infinite;
+}
+.background div:nth-child(137){
+    top: 45%;
+    left: 19%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft2 5s linear infinite;
+}
+.background div:nth-child(138){
+    top: 42%;
+    left: 24%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 9s linear infinite;
+}
+.background div:nth-child(139){
+    top: 53%;
+    left: 24%;
+    width: 1px;
+    height: 1px;
+    animation: onanddow 3s linear infinite;
+}
+.background div:nth-child(140){
+    top: 35%;
+    left: 5%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 3s linear infinite;
+}
+.background div:nth-child(141){
+    top: 9%;
+    left: 3%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 5s linear infinite;
+}
+.background div:nth-child(142){
+    top: 9.5%;
+    left: 2%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft1 6s linear infinite;
+}
+.background div:nth-child(143){
+    top: 23%;
+    left: 7%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 5s linear infinite;
+}
+.background div:nth-child(144){
+    top: 46%;
+    left: 3%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 4s linear infinite;
+}
+.background div:nth-child(145){
+    top: 45%;
+    left: 15%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 8s linear infinite;
+}
+.background div:nth-child(146){
+    top: 78%;
+    left: 12%;
+    width: 2px;
+    height: 2px;
+    animation: onanddow 7s linear infinite;
+}
+.background div:nth-child(147){
+    top: 89%;
+    left: 5%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft2 3s linear infinite;
+}
+.background div:nth-child(148){
+    top: 39%;
+    left: 60%;
+    width: 3px;
+    height: 3px;
+    animation: moveleft1 8s linear infinite;
+}
+.background div:nth-child(149){
+    top: 45%;
+    left: 25%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft3 4s linear infinite;
+}
+.background div:nth-child(150){
+    top: 79%;
+    left: 78%;
+    width: 2px;
+    height: 2px;
+    animation: moveleft1 5s linear infinite;
+}
+@keyframes moveleft1{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        transform: translateX(-5000%);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-10000%);
+    }
+}
+@keyframes moveleft2{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        transform: translateX(-4000%);
+    }
+    75%{
+        transform: translateX(-8000%);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-10000%);
+    }
+}
+@keyframes moveleft3{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        transform: translateX(-2000%);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-4000%);
+    }
+}
+@keyframes onanddow{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        transform: translateX(-500%);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-1000%);
+    }
+}
+.containermain{
+    max-width: 1100px;
+    margin: auto;
+}
+#check{
+    display: none;
+    position: absolute;
+}
+#checkbox img{
+    display: none;
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+.containernavbar{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.navbar{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+.navbar ul{
+    list-style: none;
+    padding-left: 30rem;
+    display: flex;
+}
+.navbar ul li{
+    padding: 1.75rem 1rem;
+}
+.navbar ul li a{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: rgb(230, 230, 230);
+}
+.logo{
+    padding: 1.25rem 2rem;
+}
+.logo a{
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.containerhome{
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 6rem;
+}
+.containerprofile{
+    position: relative;
+}
+.containerprofile img{
+    width: 2rem;
+}
+.containerprofile img#note1{
+    z-index: -1;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    animation: note1 3s linear infinite;
+}
+@keyframes note1{
+    30%{
+        top: 20%;
+        left: 38%;
+    }
+    60%{
+        top: 5%;
+        left: 40%;
+        opacity: 0;
+    }
+    100%{
+        top: -10%;
+        left: 38%;
+        opacity: 0;
+    }
+}
+.containerprofile img#note2{
+    z-index: -1;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    animation: note2 3s linear infinite;
+}
+@keyframes note2{
+    20%{
+        top: 15%;
+        left: 48%;
+    }
+    40%{
+        top: 5%;
+        left: 51%;
+    }
+    80%{
+        top: -10%;
+        left: 51%;
+    }
+    100%{
+        top: -15%;
+        left: 50%;
+        opacity: 0;
+    }
+}
+.containerprofile img#note3{
+    z-index: -1;
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    animation: note3 5s linear infinite;
+}
+@keyframes note3{
+    20%{
+        top: 60%;
+        left: 60%;
+    }
+    40%{
+        top: 40%;
+        left: 61%;
+    }
+    60%{
+        top: 30%;
+        left: 60%;
+    }
+    80%{
+        top: 10%;
+        left: 57%;
+    }
+    100%{
+        top: -10%;
+        left: 55%;
+        opacity: 0;
+    }
+}
+.profile{
+    overflow: hidden;
+}
+.profile img{
+    padding: .25rem;
+    border: .25rem solid rgba(0, 110, 255, 0.8);
+    border-radius: 100%;
+    width: 8rem;
+    margin-top: 4rem;
+    animation: profile 3s linear infinite;
+}
+@keyframes profile{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.contact img{
+    margin-top: .5rem;
+    padding: .5rem;
+    width: 1.5rem;
+}
+.suggest h2{
+    margin-top: 2rem;
+    color: white;
+    font-weight: 900;
+    font-size: 3.8rem;
+    line-height: 1.2;
+    overflow-y: hidden;
+}
+.suggest h3{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+.scrollmore{
+    max-width: 100px;
+    margin: auto;
+}
+.scrollmore h4{
+    margin-top: 3rem;
+    font-size: .8rem;
+    color: white;
+    animation: learnmore 3s linear infinite;
+}
+@keyframes learnmore {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.scrollmore div{
+    border-radius: 10%;
+    position: relative;
+    margin: auto;
+    margin-top: .5rem;
+    height: 5rem;
+    width: 2px;
+    background: linear-gradient(to bottom, rgba(58, 143, 253, 0.8)0%,rgba(0, 110, 255,0.1)100%);
+}
+.scrollmore center{
+    margin-bottom: 6rem;
+    scroll-margin-top: 1rem;
+}
+.scrollmore div::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    border-radius: 10%;
+    background-color: white;
+    animation: scroll 3s linear infinite;
+}
+@keyframes scroll {
+    0%{
+        top: 0%;
+    }
+    50%{
+        top: 70%;
+        opacity: 0;
+    }
+    100%{
+        top: 0%;
+        opacity: 1;
+    }
+}
+.containerproject{
+    max-width: 1100px;
+}
+.project{
+    position: relative;
+    width: 60rem;
+    margin: 0rem auto;
+}
+.img{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: .5rem;
+    box-shadow: 0 0  9rem .5rem hsla(0, 0%, 100%, .3);
+}
+.img img{
+    width: 100%;
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    scroll-margin-top: 15rem;
+    object-fit: cover;
+}   
+.slide-nav{
+    display: flex;
+    position: absolute;
+    column-gap: 1rem;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slide-nav a{
+    width: .75rem;
+    height: .75rem;
+    border-radius: 1rem;
+    background-color: rgb(0, 0, 0);
+    opacity: .6;
+}
+.slide-nav a:hover{
+    background-color: black;
+    opacity: .8;
+    transition: opacity ease 250ms;
+}
+.headproject{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3rem;
+}
+.text-h1-project{
+    font-size: 3rem;
+    color: #fff;
+}
+.arrow{
+    text-align: center;
+    margin: 1.3rem 1rem;
+    width: 2rem;
+    height: 2rem;
+    opacity: .6;
+    cursor: pointer;
+}
+.arrow:hover{
+    opacity: 1;
+}
+.text-h1-certificate{
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 10rem;
+    scroll-margin-top: 6rem;
+}
+.certificate{
+    position: relative;
+    margin: 30px auto;
+}
+.certificate::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 6px;
+    background: white;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0,0.5);
+    top: 0;
+    left: 49.7%;
+    z-index: 1;
+}
+.certificate img{
+    width: 20rem;
+}
+.container-text-box{
+    position: relative;
+    margin: auto;
+    padding: 30px 0px;
+    width:auto;
+}
+.profile-text-box{
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    padding: 10px 10px;
+}
+.left-container{
+    left: 10%;
+}
+.right-container{
+    left: 58%;
+}
+.left-timeline{
+    position: absolute;
+    top: 45px;
+    left: 37.3%;
+    padding: 1.5rem;
+    border: .4rem solid white;
+    background-color: blue;
+    border-radius: 50%;
+    z-index: 2;
+}
+.right-timeline{
+    position: absolute;
+    top: 45px;
+    left: -10.7%;
+    padding: 1.5rem;
+    border: .4rem solid white;
+    background-color: blueviolet;
+    border-radius: 50%;
+    z-index: 2;
+}
+.arrow-left{
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid white;
+    top: 20px;
+    right: -25px;
+}
+.arrow-right{
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid white;
+    top: 20px;
+    left: -25px;
+}
+.cedit{
+    width: 100%;
+}
+.border{
+    margin: auto;
+    width: 10%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255,0.8);
+}
+.containercedit{
+    text-align: center;
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+}
+.containercedit h2,.containercedit p{
+    color: rgb(230, 230, 230);
+}
+@media (max-width:1400px) {
+    .navbar{
+        max-width: 900px;
+    }
+    .navbar ul{
+        padding-left: 18rem;
+    }
+    .project{
+        width: 55rem;
+    }
+}
+@media (max-width:1200px) {
+    .containermain{
+        max-width: 800px;
+    }
+    .navbar{
+        max-width: 800px;
+    }
+    .navbar ul{
+        padding-left: 15rem;
+    }
+    .suggest h2{
+        font-size: 3rem;
+    }
+    .suggest h3{
+        font-size: 1.2rem;
+        padding: 0 2rem;
+        margin: 1rem auto;
+    }
+    .scrollmore{
+        margin-top: 4rem;
+    }
+    .scrollmore h4{
+        font-size: .6rem;
+    }
+    .project{
+        width: 40rem;
+    }
+    .certificate img{
+        width: 15rem;
+    }
+    .profile-text-box{
+        width: 15rem;
+    }
+    .container-text-box {
+        padding: 2rem 1.75rem;
+    }
+    .left-container{
+        left: 3%;
+    }
+    .left-timeline{
+        left: 43.3%;
+    }
+    .right-timeline{
+        left: -11.7%;
+    }
+    .cursor-shadow{
+        display: none;
+    }
+}
+@media (max-width:992px) {
+    .navbar{
+        max-width: 700px;
+        display: block;
+        transition: .2s;
+        overflow: hidden;
+    }
+    .navbar ul{
+        position: relative;
+        text-align: center;
+        padding: 0;
+        display: block;
+        transition: .15s;
+        top: -30%;
+        opacity: 0;
+    }
+    .logo{
+        padding: 1.7rem 2rem;
+        display: flex;
+    }
+    .logo a{
+        margin-right: 25rem;
+    }
+    #checkbox{
+        display: flex;
+        cursor: pointer;
+    }
+    #checkbox img#menu{
+        display: block;;
+    }
+    #check:checked~.logo label#checkbox img#close{
+        display: block;
+    }
+    #check:checked~.logo label#checkbox img#menu{
+        display: none;
+    }
+    #check:checked~#ulnavbar{
+       top:0;
+       opacity: 1;
+    }
+    .containerprofile{
+        margin-top: 2rem;
+    }
+    .contact{
+        margin-top: .5rem;
+    }
+    .suggest h2{
+        font-size: 2.5rem;
+    }
+    .suggest h3{
+        font-size: 1rem;
+        padding: 0 3.5rem;
+    }
+    .text-h1-project{
+        font-size: 2.5rem;
+    }
+    .project{
+        width: 35rem;
+    }
+    .arrow{
+        margin: 1.1rem .75rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .text-h1-certificate{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width:768px) {
+    .navbar{
+        max-width: 576px;
+    }
+    .logo a{
+        margin-right: 17rem;
+    }
+    .suggest h2{
+        font-size: 2rem;
+    }
+    .scrollmore{
+        margin-top: 1rem;
+    }
+    .text-h1-project{
+        font-size: 2rem;
+    }
+    .project{
+        width: 30rem;
+    }
+    .slide-nav{
+        bottom: .75rem;
+    }
+    .arrow{
+        margin: .9rem .5rem;
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    .text-h1-certificate{
+        font-size: 2rem;
+    }
+    .profile-text-box{
+        width: 11rem;
+        padding: 5px 5px 0px 5px;
+    }
+    .certificate img{
+        width: 11rem;
+    }
+    .arrow-left{
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid white;
+        top: 20px;
+        right: -15px;
+    }
+    .arrow-right{
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-right: 15px solid white;
+        top: 20px;
+        left: -15px;
+    }
+    .left-timeline{
+        padding: 1.3rem;
+        left: 42.5%;
+        top: 40px;
+    }
+    .right-timeline{
+        padding: 1.3rem;
+        left: -10.5%;
+        top: 40px;
+    }
+    .right-container{
+        left: 56%;
+    }
+    .border {
+        width: 15%;
+    }
+    .containercedit h2, .containercedit p {
+        font-size: 1rem;
+    }
+}
+@media (max-width:576px) {
+    .navbar{
+        max-width: 375px;
+    }
+    .logo a{
+        font-size: 1.25rem;
+        margin-right: 7.3rem;
+    }
+    .containerprofile{
+        margin-top: 0;
+    }
+    .suggest h2{
+        margin-top: .5rem;
+        font-size: 1.4rem;
+        padding: 0 .75rem;
+        line-height: 1.4;
+    }
+    .suggest h3{
+        font-size: .9rem;
+        padding: 0 1.25rem;
+        line-height: 1.6;
+    }
+    .scrollmore{
+        margin-top: 5rem;
+    }
+    .project{
+        width: 22rem;
+    }
+    .certificate::after{
+        left: 10%;
+    }
+    .certificate img{
+        width: 15rem;
+    }
+    .profile-text-box{
+        width: 15rem;
+    }
+    .left-container,.right-container{
+        left: 12.5%;
+    }
+    .arrow-left{
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-right: 15px solid white;
+        border-left: 0;
+        top: 15px;
+        left: -15px;
+    }
+    .arrow-right{
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-right: 15px solid white;
+        top: 15px;
+        left: -15px;
+    }
+    .left-timeline,.right-timeline{
+        padding: 1.25rem;
+        left: -8.5%;
+        top: 50px;
+    }
+    .container-text-box{
+        padding: 3rem;
+    }
+    
+}
+@media (max-width:374px) {
+    .navbar{
+        max-width: 320px;
+    }
+    .logo a{
+        margin-right: 3.5rem;
+    }
+    .suggest h2{
+        font-size: 1.2rem;
+    }
+    .suggest h3{
+        font-size: .8rem;
+    }
+    .text-h1-project{
+        font-size: 1.5rem;
+    }
+    .arrow{
+        margin: .45rem .5rem;
+    }
+    .project{
+        width: 18rem;
+    }
+    .text-h1-certificate{
+        font-size: 1.5rem;
+    }
+    .left-timeline, .right-timeline{
+        padding: 1rem;
+        left: -11%;
+        top: 54px;
+    }
+    .profile-text-box{
+        width: 12rem;
+    }
+    .certificate img{
+        width: 12rem;
+    }
+    .left-container, .right-container{
+        left: 15%;
+    }
+}
+@media (max-width:320px) {
+    .navbar{
+        max-width: 270px;
+    }
+    .logo a{
+        font-size: 1.1rem;
+        margin-right: 2rem;
+    }
+    .suggest h2{
+        font-size: 1.1rem;
+    }
+    .suggest h3{
+        font-size: .7rem;
+    }
+    .project{
+        width: 15rem;
+    }
+    .text-h1-certificate{
+        font-size: 1.5rem;
+    }
+    .left-timeline, .right-timeline{
+        padding: .8rem;
+        left: -9%;
+        top: 57px;
+    }
+    .profile-text-box{
+        width: 10rem;
+    }
+    .certificate img{
+        width: 10rem;
+    }
+    .left-container, .right-container{
+        left: 13%;
+    }
+    .containercedit h2, .containercedit p{
+        font-size: .8rem;
+    }
+}
